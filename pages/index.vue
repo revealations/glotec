@@ -1,10 +1,12 @@
+
 <template>
-  <div>{{ addNumber(1, 1) }}</div>
+  <div class="flex justify-center">
+    <img src="/screen.png" class="w-full">
+  </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-
 export default Vue.extend({
   props: {
     name: {
@@ -14,9 +16,7 @@ export default Vue.extend({
     }
   },
   methods: {
-    addNumber (a: number, b: number): string {
-      return (a + b).toString()
-    }
+
   }
 })
 </script>
