@@ -89,6 +89,9 @@
   </div>
 </template>
 
+<script>
+
+</script>
 <style>
   .vertical{
     border-right: 1px;
